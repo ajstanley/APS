@@ -1,0 +1,225 @@
+/* 
+    Document   : aps
+    Created on : Dec 12, 2012, 10:02:22 PM
+    Author     : astanley
+    Description: General css for APS
+
+*/
+
+
+root { 
+  display: block;
+}
+
+.coach_content{
+  padding-bottom:2%;
+  font-size: larger;
+  min-height:300px;
+  height:auto !important;
+
+}
+
+.header_content{
+  font-family:sans-serif;
+  text-align: left;
+  font-size: larger;
+}
+.coach_header{
+  font-family:sans-serif;
+  text-align: left;
+  font-size: larger;
+  padding-left: 2%;
+  padding-top: 20px;
+  width: 60%
+}
+.coach_description{
+
+}
+
+.coach_body{
+  font-family:sans-serif;
+  text-align: left;
+  padding-left: 2%;
+  margin-right:4%;
+  padding-bottom:4%;
+  width: 60%;
+  min-height:200px;
+  height:auto !important;
+}
+.coach_image{
+  float:right;
+  padding-right: 2%;
+}
+
+.coach_image img{
+  height:200px;
+}
+#content_body{
+
+}
+.gap{
+  margin: 2%;
+}
+.big_gap{
+  margin: 5%;
+}
+.subheader{
+  margin-left: 5%;
+}
+.pclogo{
+  margin:5%;
+  width:25%;
+  height:100%;
+  float:left;
+
+}
+.announcement{
+  margin-left: 35%;
+  margin-right: 8%;
+  margin-top:5%;
+  margin-bottom:5%;
+  font-size: larger;
+}
+
+.logo{
+  float:left;
+  padding:3%;
+}
+.logo_last{
+  float:left;
+}
+#logo_layer{
+  padding-top:5%;
+}
+#navbar{
+  padding-top:2%;
+  margin-left:4%;
+}
+#body_content{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  overflow: hidden;
+  position: relative;
+  word-wrap: break-word;
+  background: rgb(255, 255, 255);
+  text-align: left;
+  width: 70%;
+}
+
+#logo_layer{
+  padding:4%;
+  position: relative;
+}
+
+#contact_us{
+  font-size: larger;
+  width:70%;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:8%;
+  margin-bottom:40px;
+}
+#indicator{
+  text-align: center;
+  color: blue;
+}
+
+#choice_holder{
+  height:60px;
+}
+#video_content{
+  text-align: center;
+}
+
+.slides_container {
+  width:70%;
+  height:570px;
+}
+.slides_container div {
+  width:70%;
+  height:570px;
+  display:block;
+}
+
+.frame_wrapper{
+  padding-left: 2%;
+}
+
+iframe {
+  width:96%;
+  height:660px;
+
+}
+#discipline_buttons{
+  width:70%;
+  margin-left: 2%;
+  margin-bottom: 10px;
+}
+#instructions{
+  color: blue;
+}
+.course_content{
+  padding-bottom:2%;
+  font-size: larger;
+  width:60%;
+  float:right;
+}
+#homepage_pic{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.hotel_listing{
+  width:70%;
+  margin-left:auto;
+  margin-right: auto;
+}
+.hotel_listing a{
+  color: #8B3E2F;
+}
+
+.course_content h2{
+  color: #8B3E2F;
+}
+.other_event{
+  margin-bottom: 60px;
+}
+.centered{
+  text-align: center;
+  padding:5px;
+}
+
+.normal_para{
+  padding-left:8%;
+  padding-right:8%;
+  font-size: larger;
+}
+div.polaroid{
+  margin: 4%;
+  width:25%;
+  padding:2% 2% 2% 2%;
+  border:1px solid #BFBFBF;
+  background-color:white;
+  /* Add box-shadow */
+  box-shadow:2px 2px 3px #aaaaaa;
+}
+
+div.rotate_left{
+  float:left;
+  -ms-transform:rotate(7deg); /* IE 9 */
+  -moz-transform:rotate(7deg); /* Firefox */
+  -webkit-transform:rotate(7deg); /* Safari and Chrome */
+  -o-transform:rotate(7deg); /* Opera */
+  transform:rotate(7deg);
+}
+
+div.rotate_right{
+  float:right;
+  -ms-transform:rotate(-8deg); /* IE 9 */
+  -moz-transform:rotate(-8deg); /* Firefox */
+  -webkit-transform:rotate(-8deg); /* Safari and Chrome */
+  -o-transform:rotate(-8deg); /* Opera */
+  transform:rotate(-8deg);
+}
